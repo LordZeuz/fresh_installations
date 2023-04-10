@@ -1,0 +1,18 @@
+#!/usr/bin/bash
+sudo apt-get update
+sudo apt-get install git
+sudo apt-get update
+sudo apt-get install emacs
+sudo apt-get update
+sudo apt-get install -y nginx
+sudo service nginx restart
+sudo apt-get update
+sudo apt-get install -y mysql-server
+sudo apt-get update
+sudo apt-get install -y python3
+sudo apt-get update
+sudo apt-get install -y nodejs
+sudo apt-get update
+sudo apt-get install net-tools
+sudo apt-get update
+sudo apt install curl
