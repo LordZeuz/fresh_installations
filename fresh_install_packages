@@ -3,28 +3,28 @@
 #install git
 apt-get update
 apt-get install git
-apt-get update
+
 #install emacs
 apt-get install emacs
-apt-get update
+
 #install nginx
 apt-get install -y nginx
 service nginx restart
-apt-get update
+
 #install mysql-server
 apt-get install -y mysql-server
 apt-get update
 #install python3 and nodejs
 apt-get install -y python3
-apt-get update
+
 apt-get install -y nodejs
-apt-get update
+
 #install nettools
-apt-get install net-tools
-apt-get update
+apt-get install -y net-tools
+
 #install curl
 apt install curl
-apt-get update
+
 #install puppet
 apt-get install -y ruby=1:2.7+1 --allow-downgrades
 apt-get install -y ruby-augeas
@@ -36,7 +36,6 @@ apt-get update
 #install pip3
 apt install python3-pip
 
-apt-get update
 #install fabric v1.14
 apt-get install libffi-dev
 apt-get install libssl-dev
@@ -50,6 +49,7 @@ pip3 install cryptography==2.8
 pip3 install bcrypt==3.1.7
 pip3 install PyNaCl==1.3.0
 pip3 install Fabric3==1.14.post1
+
 #install shellcheck
 apt-get install
 apt install shellcheck
